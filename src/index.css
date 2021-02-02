@@ -22,3 +22,11 @@ body {
   font-family: pixel;
   src: url(./m5x7.ttf)
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::selection {
+  background-color: #8e44ad;
+}

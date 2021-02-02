@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: var(--theme);
+    position: relative;
 }
 
 .nav-links {
@@ -51,29 +52,27 @@
 
     .nav-links {
         position: absolute;
-        top: 100px;
-        left: -100%;
-        height: 100vh;
+        top: -100vh;
+        height: 25vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         width: 100%;
         background-color: #2f3640;
-        transition: all 500ms;
     }
 
     .nav-links.active {
         position: absolute;
         top: 100px;
-        left: 0;
-        height: 100vh;
+        height: 25vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         width: 100%;
         background-color: #2f3640;
+        margin-bottom: 100px;
     }
 
     .menu {

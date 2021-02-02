@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
+import {Route, Link, Switch} from 'react-router-dom'
 import "./styles/Navbar.css"
 import logo from '../imgs/logo_channel.png'
 
@@ -11,7 +11,6 @@ const Navbar = () => {
     }
 
     return (
-        <Router>
         <nav className="navbar">
             <img className="logo" src={logo} alt="The Orange Triangle"/>
             <div className={clicked ? "nav-links active" : "nav-links"}>
@@ -25,14 +24,14 @@ const Navbar = () => {
                 <Link to="/devlogs" className="nav-link">Devlogs</Link>
             </Switch>
             <Switch>
-                <Link to="/Blog" className="nav-link">Our Blog</Link>
+                <Link to="/blog" className="nav-link">Our Blog</Link>
             </Switch>            
             </div>
             <div onClick={handleClick} className="menu">
             <i class={clicked ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
         </nav>
-        </Router>
+        
     )
 }
 
