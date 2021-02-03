@@ -2,11 +2,15 @@ import React from 'react'
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import "./styles/Home.css"
-import {BrowserRouter as Router} from 'react-router-dom'
+import Card from '../components/Card';
+import ChooseYourEngine from '../imgs/Choose Your Engine.svg';
+import GodotUI from '../imgs/Godot-UI.svg';
+import GodotCourse from '../imgs/Godot Course.svg';
+import Tuts from './Tuts';
+import HomePage from './Home'
 
 const Home = () => {
     return (
-        <Router>
         <div classname="home">
             <Navbar />
             <div className="content-wrapper">
@@ -21,10 +25,18 @@ const Home = () => {
                     </a>
                 </div>
             </div>
+            <section className="stuff">
+                <div className="stuff-container">
+                    <Card img={ChooseYourEngine} desc="In this post I give you suggestions on which Game Engine You would use from a particular case EX:  'No coding experience, A particular programming language etc.'" buttonto="/" buttontext="Learn More" />
+                    <Card img={GodotUI} desc="In this post I give you a tutorial on the godot's UI (User Interface) so that you can get familiar with it's UI(User Interface) and get used to it." buttonto="/" buttontext="Learn More" />
+                    <Card img={GodotCourse} desc="In this post I give you a tutorial series(not released yet) fully on godot. You'll learn about GDScript, Nodes, Scenes, Reusability of Scenes and many more." buttonto="/" buttontext="Learn More"/>
+                </div>
+            </section>
             <Footer />
         </div>
-        </Router>
+
+
     )
 }
 
-export default Home
+export default Home;

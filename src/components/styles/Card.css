@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 450px;
+    background-color: #292626;
+    position: relative;
+    top: 550px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.desc {
+    color: white;
+    font-size: 28px;
+    font-family: pixel;
+    text-align: justify;
+    padding: 7px;
+}
+
+.Button {
+    padding: 17px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;   
+    font-family: pixel;
+    font-size: 30px;
+    background-color: var(--theme);
+}
+
+.card-img {
+    width: 350px;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 1024px){
+    .card {
+        margin-bottom: 100px;
+    }
+}
