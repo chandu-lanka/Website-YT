@@ -38,7 +38,7 @@ const Home = () => {
           <Card
             img={GodotUI}
             desc="In this post I give you a tutorial on the godot's UI (User Interface) so that you can get familiar with it's UI(User Interface) and get used to it."
-            buttonto="/tuts/godot-ui"
+            buttonto="/tuts/godot-ui-tut"
             buttontext="Learn More"
           />
           <Card

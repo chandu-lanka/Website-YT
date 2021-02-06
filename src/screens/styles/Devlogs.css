@@ -1,0 +1,54 @@
+.dev-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.devcards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.devcard {
+  width: 85%;
+  height: 200px;
+  background-color: #202327;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.devimg {
+  height: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.devdesc {
+  color: white;
+  font-family: pixel;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: justify;
+  width: 80%;
+}
+
+.devlink {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .devcard {
+    width: 85%;
+  }
+
+  .devdesc {
+    font-size: 13px;
+  }
+}
