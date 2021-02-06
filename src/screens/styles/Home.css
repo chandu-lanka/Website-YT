@@ -109,11 +109,11 @@
     .stuff-container {
         flex-direction: column;
         align-items: center;
-        margin-top: -1800px;
+        margin-top: -150vh;
     }
 
     .content-wrapper {
-        margin-bottom: 250vh;
+        margin-bottom: 150vh;
     }
 
 }

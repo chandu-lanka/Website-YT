@@ -1,0 +1,26 @@
+.header-tut {
+  font-size: 70px;
+  font-family: pixel;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tut-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .tut-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}

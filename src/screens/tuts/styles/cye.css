@@ -1,0 +1,94 @@
+.banner-cye {
+  width: 50%;
+  height: 50%;
+  align-self: center;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quick-intro {
+  color: white;
+  font-family: pixel;
+  font-size: 30px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  flex-direction: column;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.unity-header {
+  font-size: 50px;
+  color: var(--theme);
+  font-family: pixel;
+  padding: 20px;
+}
+
+.post_header {
+  font-size: 100px;
+  color: var(--theme);
+  font-family: pixel;
+  padding: 20px;
+}
+
+.unity-desc {
+  font-size: 30px;
+  font-family: pixel;
+  color: white;
+}
+
+.editor {
+  width: 90%;
+  padding: 10px;
+}
+
+.src {
+  font-size: 20px;
+  font-family: pixel;
+  color: white;
+}
+
+.link-post {
+  color: var(--theme);
+}
+
+.unity-pros {
+  color: white;
+  font-family: pixel;
+  font-size: 30px;
+}
+
+.unity-cons {
+  color: white;
+  font-family: pixel;
+  font-size: 30px;
+}
+
+.unity-non-programmers {
+  color: white;
+  font-family: pixel;
+  font-size: 30px;
+}
+
+.godot-desc {
+  font-size: 30px;
+  font-family: pixel;
+  color: white;
+}
